@@ -61,7 +61,7 @@ var Sprite = require('./Sprite');
 		function setJumping() {
 			var currentSpeed = that.getSpeed();
 			that.setSpeed(currentSpeed + 2);
-			that.setSpeedY(currentSpeed + 2);
+			that.setSpeedY(currentSpeed + 10);
 			that.isMoving = true;
 			that.hasBeenHit = false;
 			that.isJumping = true;
